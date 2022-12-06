@@ -61,7 +61,7 @@ if (Test-Path Env:\APPVEYOR_BUILD_VERSION) {
 }
 
 # 7zip configuration section
-$7ZIP_VERSION      = "18.01"
+$7ZIP_VERSION      = "22.01"
 $7ZIPNODOTVERSION  = $7ZIP_VERSION -replace "\.", ""
 $7ZIP_NAME         = "7z-$7ZIPNODOTVERSION-x64"
 $7ZIP_DIRECTORY    = Join-Path $PACKAGES_DIRECTORY $7ZIP_NAME
